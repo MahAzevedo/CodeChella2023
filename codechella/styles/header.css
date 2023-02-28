@@ -1,0 +1,23 @@
+.cabecalho {
+    width: 20.5rem;
+    height: 3rem;  /*testar se essa altura tá boa, era 8rem 128px, agora 48px*/
+    background-color: var(--cor-de-fundo);
+    padding: 2rem 1.5rem 2rem 1.5rem; /*32px 24px 32px 24px*/
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem; /*32px*/
+}
+
+.cabecalho__menu-hamburguer {
+    width: 2rem; /* 32px*/
+    height: 2.5rem; /* 40px*/
+    background-image: url("/menu.png"); /*tem um desse no html, aqui tá funcionando*/ 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    display: inline-block;
+}
+
+.container {   /*testar pra ver se fica melhor com isso aqui mesmo, pq nao parece fazer diferença agora*/
+    display: flex;
+    align-items: center;
+}
