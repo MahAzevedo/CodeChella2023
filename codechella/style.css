@@ -1,13 +1,157 @@
 @import url("styles/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
 :root {
-    --cor-de-fundo:#2E7BA2;   
-}
-
-body {
-    background-color: var(--cor-de-fundo);
+    --cor-de-fundo:#2E7BA2; 
+    --cor-principal: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);;  
 }
 
 .cabecalho {
     background-color: var(--cor-de-fundo);
+    width: 19.5rem;
+}
+
+body {
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+}
+
+.principal__banner {
+    width: 22.5rem;
+    height: 10.9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__titulo {
+    width: 19.5rem;
+    height: 23.8rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.principal__paragrafo {
+    font-family:'Raleway', sans-serif;
+    width: 19.5rem;
+    height: 17.5rem;
+}
+
+.principal__aviso {
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__aviso-imagem {
+    padding: 1.6rem;
+}
+
+
+.principal__aviso-texto {
+    width: 19.5rem;
+    height: 1.5rem;
+    padding: 1.6rem;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    display: flex;
+    padding: 1.6rem;
+    font-size: 2rem;
+} 
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2.2rem;
+}
+
+.principal__paragrafo {
+    font-family: 'Raleway';
+    font-style: normal;
+    padding: 2.6rem 0 1.5rem 1.5rem;
+    width: 18.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.principal__link__compra__ingresso {
+   padding: 1.6rem; 
+}
+
+.principal__imagem__da__programacao__Line-Up {
+    padding: 3rem 1rem 1rem 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.principal__imagem__da__programacao {
+    padding: 0rem 0rem 2rem 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.principal__imagem__de__fas {
+    display: flex;
+    align-items: center;
+}
+
+.principal__rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__rodape__paragrafo__redes__sociais {
+    font-family: 'Raleway';
+   
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    color: #444444;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.principal__itens__redes__sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: -1.4rem 1.6rem 0.6rem 1.6rem;
+}
+
+.principal__rodape__paragrafo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 3.5rem;
+    color: #444444;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.6rem 1.6rem 1.6rem 1.6rem;
+}
+
+@media (max-width: 360px) {
+
 }

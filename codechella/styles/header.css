@@ -1,6 +1,6 @@
 .cabecalho {
     width: 20.5rem;
-    height: 3rem;  /*testar se essa altura tá boa, era 8rem 128px, agora 48px*/
+    height: 4rem;  /*testar se essa altura tá boa, era 8rem 128px, agora 48px*/
     background-color: var(--cor-de-fundo);
     padding: 2rem 1.5rem 2rem 1.5rem; /*32px 24px 32px 24px*/
     display: flex;
