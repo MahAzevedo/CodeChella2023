@@ -1,11 +1,12 @@
 .cabecalho {
     width: 20.5rem;
-    height: 4rem;  /*testar se essa altura tá boa, era 8rem 128px, agora 48px*/
+    height: 4rem; 
     background-color: var(--cor-de-fundo);
     padding: 2rem 1.5rem 2rem 1.5rem; /*32px 24px 32px 24px*/
     display: flex;
     justify-content: space-between;
     gap: 2rem; /*32px*/
+    position: relative;
 }
 
 .cabecalho__menu-hamburguer {
@@ -17,15 +18,45 @@
     display: inline-block;
 }
 
-.container {   /*testar pra ver se fica melhor com isso aqui mesmo, pq nao parece fazer diferença agora*/
+.container {   
     display: flex;
-    align-items: center;
+    align-items: center; 
+}
+
+.container__botao {
+    display: none; 
 }
 
 .lista-menu {
-    display: none;
+    display: none; 
+    position: absolute;  
+    top: 100%; 
+    width: 60vw;
+    right: 0rem;
+    text-align: center;
+    gap: 0.06rem;
+    font-weight: 700;
+    line-height: 0.5rem;
+    border: 0.04rem solid white;
 }
 
 .container__botao:checked ~ .lista-menu {
-    display: block;
+    display: block;   
+}
+
+.lista-menu__item {
+    padding: 1rem;
+    background-color: var(--cor-de-fundo);
+    border: 0.5px solid white;
+}
+
+.lista-menu__link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    background-clip: text;
 }
