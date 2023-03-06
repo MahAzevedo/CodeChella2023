@@ -1,49 +1,27 @@
 @import url("styles/header.css");
 
-.principal__rodape {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (max-width: 360px) {
+
+    .principal__imagem__de__fas {
+        background-image: url("img/Imagem.das.fas.maior.png"), no-repeat;
+        width: 20%;
+    }
+    .principal__rodape {
+        display: flex;
+        justify-content: center;
+        border-left: 8rem 0;
+        
+    }
 }
 
-.principal__rodape__paragrafo__redes__sociais {
-    font-family: 'Raleway';
-    font-weight: 500;
-    font-size: 1.25rem;
-    line-height: 2.5rem;
-    color: #444444;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.principal__rodape__itens__redes__sociais {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: -1.4rem 1.6rem 0.6rem 1.6rem;
-}
-
-.principal__rodape__paragrafo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.25rem;
-    line-height: 3.5rem;
-    color: #444444;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0.6rem 1.6rem 1.6rem 1.6rem;
-}
-
-@media screen and (min-width: 768px) {
-    background-image: url(".Imagem.1.fas.png") no-repeat;
+@media screen and (max-width: 768px) {
+   
 
     .principal__rodape {
         display: flex;
         justify-content: center;
         border-left: 8rem 0;
+        background-image: url("img/Imagem.png"), no-repeat;
     }
 
     .principal__rodape__paragrafo {
