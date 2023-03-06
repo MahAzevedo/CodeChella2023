@@ -1,4 +1,3 @@
-/* @import url("styles/experiencia.css"); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
@@ -8,12 +7,11 @@
     --cor-principal: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);;  
 }
 
-.experiencia__imagem__banner {}
-
-.imagem__banner__experiencia {}
-
-.imagem__banner__experiencia__acessibilidade {
-    padding: 1rem 0 1rem 1.5rem;
+.imagem__banner__experiencia__imagens {
+    width: 19.5rem;
+    height: 24.1rem;
+    border-radius: 1rem;
+    padding: 2rem 0rem 1rem 1.5rem;
 }
 
 .experiencia__aviso__titulo__paragrafo {
@@ -24,10 +22,8 @@
     font-weight: 700;
     font-size: 2rem;
     line-height: 2.4rem;
-    display: flex;
-    align-items: center;
     text-align: center;
-    padding: 1rem 0rem 1rem 4rem;
+    padding: 1rem 0rem 1rem 3.5rem; 
     color: #444444;
 }
 
@@ -41,15 +37,10 @@
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 2.5rem;
-    width: 22.5rem;
-    height: 30rem;
-    padding: 0rem 1rem 1rem 1rem;
+    width: 20.5rem;
+    height: rem;
+    padding: 2rem 1rem 0rem 1rem;
 }
 
-.imagem__banner__experiencia__sustentabilidade {
-    width: 19.5rem;
-    height: 24.1rem;
-    border-radius: 1rem;
-    padding: 3rem 1rem 1rem 2rem;
-}
+
 
