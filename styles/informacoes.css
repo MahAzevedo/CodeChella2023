@@ -1,0 +1,14 @@
+.informacoes__pessoas__show{
+    background-size: cover;
+    height: 17.6rem;
+    
+    
+    top: 8rem;
+    padding: 1.5rem 1.5rem 1.5re, 1.5rem;
+    
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -18,11 +18,12 @@ body {
     background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
 }
 
-.principal__banner {
+.principal__carrossel__banner {
     width: 22.5rem;
     height: 10.9rem;
     display: flex;
     flex-direction: column;
+    /* aqui tem que alterar a imagem nas telas */
 }
 
 .principal__titulo {
@@ -49,7 +50,6 @@ body {
 .principal__aviso-imagem {
     padding: 1.6rem;
 }
-
 
 .principal__aviso-texto {
     width: 19.5rem;
@@ -111,7 +111,13 @@ h1 {
 
 .principal__imagem__de__fas {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    background-size: cover;
+    width: 90rem;
+    height: 21.13rem;
+ /* aqui a imagem das fas que não tá funcionando :/ */
 }
 
 .principal__rodape {
@@ -129,8 +135,7 @@ h1 {
     color: #444444;
     display: flex;
     align-items: center;
-    text-align: center;
-   
+    text-align: center; 
 }
 
 .principal__rodape__itens__redes__sociais {
@@ -152,6 +157,8 @@ h1 {
     text-align: center;
     padding: 0.6rem 1.6rem 1.6rem 1.6rem;
 }
+
+
 
 @media (max-width: 360px) {
 
