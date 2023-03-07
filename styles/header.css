@@ -1,24 +1,25 @@
+@import url("experiencia.css");
 @import url("styles/footer.css");
+@import url("style.css");
 
 .cabecalho {
     width: 20.5rem;
     height: 4rem; 
     background-color: var(--cor-de-fundo);
-    padding: 2rem 1.5rem 2rem 1.5rem; /*32px 24px 32px 24px*/
+    padding: 2rem 1.5rem 2rem 1.5rem; 
     display: flex;
     justify-content: space-between;
-    gap: 2rem; /*32px*/
+    gap: 2rem; 
     position: relative;
 }
 
-.cabecalho__menu-hamburguer {
-    width: 2rem; /* 32px*/
-    height: 2.5rem; /* 40px*/
-    background-image: url("img/menu.png"); /*tem um desse no html, aqui tá funcionando*/ 
+.cabecalho__menu__hamburguer {
+    width: 2rem; 
+    height: 2.5rem; 
+    background-image: url("img/menu.png"); 
     background-repeat: no-repeat; 
     background-position: center; 
     display: inline-block;
-    
 }
 
 .container {   
@@ -30,7 +31,7 @@
     display: none; 
 }
 
-.lista-menu {
+.lista__menu {
     display: none; 
     position: absolute;  
     top: 100%; 
@@ -43,17 +44,17 @@
     border: 0.04rem solid white;
 }
 
-.container__botao:checked ~ .lista-menu {
+.container__botao:checked ~ .lista__menu {
     display: block;   
 }
 
-.lista-menu__item {
+.lista__menu__item {
     padding: 1rem;
     background-color: var(--cor-de-fundo);
     border: 0.5px solid white;
 }
 
-.lista-menu__link {
+.lista__menu__link {
     color: white;
     text-decoration: none;
     font-family: 'Raleway';
