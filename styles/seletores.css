@@ -1,1 +1,53 @@
 @import url("index.html");
+@import url("styles/header.css");
+@import url("styles/footer.css");
+@import url("experiencia.css");
+
+.imagem__palco__seletores__imagens {
+    width: 19.5rem;
+    height: 24.1rem;
+    border-radius: 1rem;
+    padding: 2rem 0rem 1rem 1.5rem;
+}
+
+.imagem__legenda__seletores__imagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 0rem;
+    gap: 1.5rem;
+
+    width: 15.4rem;
+    height: 22.5rem;
+
+    border-radius: 0rem;
+}
+
+.seletores__aviso__titulo__paragrafo {
+    width: 16.4rem;
+    height: 2.4rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+    padding: 1rem 0rem 1rem 3.5rem; 
+    color: #444444;
+}
+
+.seletores__paragrafo__texto {
+    color: #444444;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    width: 20.5rem;
+    height: rem;
+    padding: 2rem 1rem 0rem 1rem;
+}
