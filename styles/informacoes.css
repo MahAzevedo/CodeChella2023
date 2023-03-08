@@ -1,5 +1,6 @@
 .informacoes__pessoas__show{
     background-size: cover;
+    width: 22.5rem;
     height: 17.6rem;
     
     
@@ -11,4 +12,39 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    /* mexer no tamanho da imagem do banner*/
+}
+
+.informacoes__titulo {
+    color: #444444;
+    width: 19.5rem;
+    height: 5.25rem;
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.quais__atracoes {
+    color: #FFFFFF;
+    width: 24rem;
+    height: 2.4rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container__input__atracoes {
+    
 }
