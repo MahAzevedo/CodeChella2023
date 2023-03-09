@@ -18,19 +18,18 @@
 
     <header class="cabecalho">
         <section class="container">
-            <img src="img/Logo1 1.png" alt="Imagem do CodeChella">
+            <img src="img/Logo1 1.png" alt="Imagem do CodeChella" class="banner__navegacao">
         </section>
 
         <section class="container">
             <a href="#"><img src="img/menu.png" alt="Menu de configurações"></a>
-            
-            <input type="checkbox" id="menu" class="container__botao" >
+            <input type="checkbox" id="menu" class="container__botao">
                     <label for="menu" class="container__rotulo">  
                         <span class="cabecalho__menu__hamburguer"></span>
                     </label> 
                             <ul class="lista__menu">
                                 <li class="lista__menu__item">
-                                    <a href="http://www.experiencia.css" class="lista__menu__link">A Experiência</a>
+                                    <a href="experiencia.html" class="lista__menu__link">A Experiência</a>
                                 </li>
                                 <li class="lista__menu__item">
                                     <a href="https://www.alura.com.br" class="lista__menu__link">Mapa de Seletores</a>
@@ -47,24 +46,74 @@
     
     <main>
         <figure>
-            <img src="img/Banner.desktop.informacoes.png" alt="Pessoas no show" class="informacoes__pessoas__show">
+            <img src="img/Banner.mobile.Infos gerais.png" alt="Pessoas no show" class="imagem__banner__informacoes__show">
         </figure>
 
          <h7 class="informacoes__titulo">
             Perguntas Frequentes:
         </h7>
 
+        <fieldset class="campo__azul"><h6 class="campo__azul__texto">Quais serão as atrações?</h6></fieldset>
+
+        <h6>caixa de selecao</h6>
+        <form method="post" action="lista-de-opcao">
+
+        </form>
+      
+        <form action="/informacoes.css">
+            <fieldset class="campo__azul">
+                <legend>teste: caixa de selecao</legend>
+                <label for="caixa__selecao" id="caixa__selecao" class="container__caixa__selecao"></label>
+                <input type="checkbox" id="caixa__selecao" class="container__caixa__selecao">
+            </fieldset>
+        </form>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+    <section class="container">
+            <img src="img/menu.png" alt="Menu de configurações">
+            <input type="checkbox" id="menu" class="container__botao" >
+                    <label for="menu" class="container__rotulo">  
+                        <span class="cabecalho__menu__hamburguer"></span>
+                    </label> 
+
+    -----------
+
+
+
+
+
          <section>
             <form>
                 <fieldset>
                     <legend class="quais__atracoes">Quais serão as atrações?</legend>
-                    <label><input id="atracoes" class="container__input__atracoes" ></label>
+                    <label><input id="atracoes" class="container__input__atracoes">
+                        <span class="span__quais__atracoes"></span>
+                    </label>
                 </fieldset>
             </form>
          </section>
-    </main>
+        -->
 
-<!--
+
+    <!---
     <section>
         <h2>Cat Form</h2>
         <form action="https://freecatphotoapp.com/submit-cat-photo">

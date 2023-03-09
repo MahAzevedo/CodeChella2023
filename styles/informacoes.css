@@ -1,19 +1,10 @@
-.informacoes__pessoas__show{
-    background-size: cover;
-    width: 22.5rem;
-    height: 17.6rem;
-    
-    
-    top: 8rem;
-    padding: 1.5rem 1.5rem 1.5re, 1.5rem;
-    
-    background-blend-mode: multiply;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.banner__navegacao {}
 
-    /* mexer no tamanho da imagem do banner*/
+.imagem__banner__informacoes__show {
+    width: 23.5rem;
+    height: 17.6rem;
+    display: flex;   
+    align-self: stretch;  /* nao sei se vai alargar a imagem, testar*/
 }
 
 .informacoes__titulo {
@@ -31,6 +22,61 @@
     padding: 1rem 2rem;
 }
 
+
+
+.campo__azul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 23.7rem;
+    height: 2.4rem;
+    background: #2E7BA2;
+
+    
+    align-self: stretch;
+    
+
+   
+  
+    
+   
+    
+
+   
+}
+
+.campo__azul__texto {
+    width: 23.7rem;
+    height: 2.375rem;
+    color: #FFFFFF;
+
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+   
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: stretch;
+    justify-items: space-between;
+
+    
+
+    
+
+
+}
+
+
+
+
+
+/*
 .quais__atracoes {
     color: #FFFFFF;
     width: 24rem;
@@ -46,5 +92,8 @@
 }
 
 .container__input__atracoes {
-    
+
 }
+
+.span__quais__atracoes {}
+*/
