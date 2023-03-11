@@ -2,9 +2,10 @@
 @import url("styles/footer.css");
 @import url("style.css");
 
-.cabecalho {
-    width: 20.5rem;
-    height: 4rem; 
+
+.nav__bar {  /*  .cabecalho */
+    width: auto;       /*20.5rem; será que fica bom o auto, ele vai se ajustar a quaquer tela */
+    height: 4rem; /* nao acho que altura seja necessaria */
     background-color: var(--cor-de-fundo);
     padding: 2rem 1.5rem 2rem 1.5rem; 
     display: flex;
@@ -13,15 +14,38 @@
     position: relative;
 }
 
-.cabecalho__menu__hamburguer {
-    width: 2rem; 
-    height: 2.5rem; 
-    background-image: url("img/menu.png"); 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    display: inline-block;
+.nav__logo {
+    width: 14.7rem;
+   /* height: 4rem;  não serve de nada */
 }
 
+.nav__hamburguer__paginas__codechella {
+    width: 2rem; 
+    height: 2.5rem; 
+}
+
+.nav__menu__configuracoes {
+    width: 2rem;
+    padding: 1.5rem 0rem;
+}
+
+.nav__buttom__login__configuracoes {
+    padding: 1.5rem 0rem;
+}
+
+.nav__buttom__login__configuracoes a {
+    text-decoration: none;
+}
+
+.nav__mobile__menu__configuracoes {}
+
+.nav__mobile__buttom__icone {}
+
+.nav__mobile__menu__ul__configuracoes {
+   
+}
+
+/*
 .container {   
     display: flex;
     align-items: center; 
@@ -30,8 +54,8 @@
 .container__botao {
     display: none; 
 }
-
-.lista__menu {
+*/
+.nav__lista__menu__ul {
     display: none; 
     position: absolute;  
     top: 100%; 
@@ -48,13 +72,13 @@
     display: block;   
 }
 
-.lista__menu__item {
+.nav__lista__menu__item {
     padding: 1rem;
     background-color: var(--cor-de-fundo);
     border: 0.5px solid white;
 }
 
-.lista__menu__link {
+.nav__lista__menu__link {
     color: white;
     text-decoration: none;
     font-family: 'Raleway';
@@ -65,64 +89,13 @@
     background-clip: text;
 }
 
-.principal__rodape {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.nav__mobile__menu__configuracoes {
+    visibility: hidden;
 }
 
-.principal__rodape__paragrafo__redes__sociais {
-    font-family: 'Raleway';
-    font-weight: 500;
-    font-size: 1.25rem;
-    line-height: 2.5rem;
-    color: #444444;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
 
-.principal__rodape__itens__redes__sociais {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: -1.4rem 1.6rem 0.6rem 1.6rem;
-}
 
-.principal__rodape__paragrafo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.25rem;
-    line-height: 3.5rem;
-    color: #444444;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0.6rem 1.6rem 1.6rem 1.6rem;
-}
 
-@media screen and (max-width: 360px) {
-    .principal__rodape { 
-        width: 20%;
-    }
-}
 
-@media screen and (min-width: 768px) {
-    
 
-   
 
-    .principal__rodape__paragrafo {
-        padding-right: 8rem 0;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-     .principal__rodape {
-        display: flex;
-        justify-content: center;
-        border-left: 8rem 0;
-        background-image: url("img/Imagem.png") no-repeat;
-    }
-}
