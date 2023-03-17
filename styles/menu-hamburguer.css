@@ -1,0 +1,26 @@
+.header__nav {
+    background-color: var(--cor-de-fundo);
+} 
+
+.nav__bar {   /*  .cabecalho */
+    width: auto;    /*20.5rem; será que fica bom o auto, ele vai se ajustar a quaquer tela */
+    display: flex;    
+} 
+  
+.nav__logo {
+    width: 14.7rem;
+    height: 4rem;  
+    padding: 0.5rem;
+}
+
+.nav__ul__li__menu {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    text-decoration: none; /* nao pegou p. tirar o sublinhado*/
+}
+
+.nav__ul__li__menu > a {
+    background: #;
+} 
+

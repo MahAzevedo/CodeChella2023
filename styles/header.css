@@ -1,24 +1,46 @@
-@import url("experiencia.css");
-@import url("styles/footer.css");
-@import url("style.css");
-
-
-.nav__bar {  /*  .cabecalho */
-    width: auto;       /*20.5rem; será que fica bom o auto, ele vai se ajustar a quaquer tela */
-    height: 4rem; /* nao acho que altura seja necessaria */
-    background-color: var(--cor-de-fundo);
-    padding: 2rem 1.5rem 2rem 1.5rem; 
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem; 
-    position: relative;
+:root {
+    --cor-de-fundo:#2E7BA2; 
+    --cor-principal: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+    --fonte-texto: 'Raleway', sans-serif;
 }
 
+.cabecalho {
+    background-color: var(--cor-de-fundo);
+    width: 19.5rem;
+}
+
+body {
+    background: var(--cor-principal);
+}
+
+/*
+.header__nav {} 
+
+.nav__bar {   /*  .cabecalho */
+  /*  width: auto;    /*20.5rem; será que fica bom o auto, ele vai se ajustar a quaquer tela */
+  /*  height: 4rem;   /* nao acho que altura seja necessaria */
+  /*  display: flex;  
+    background-color: var(--cor-de-fundo); 
+    /* list-style: none; */
+    /* position: relative; */
+    /* padding: 2rem 1.5rem 2rem 1.5rem;   
+ 
+} 
+ 
 .nav__logo {
     width: 14.7rem;
-   /* height: 4rem;  não serve de nada */
+    height: 4rem;  
 }
 
+.nav__ul__li {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+*/
+
+
+/*
 .nav__hamburguer__paginas__codechella {
     width: 2rem; 
     height: 2.5rem; 
@@ -44,6 +66,18 @@
 .nav__mobile__menu__ul__configuracoes {
    
 }
+*/
+
+
+
+
+
+
+
+
+
+/* ESSA PARTE AQUI É DO CORPO DO PROJETO EM SI */
+
 
 /*
 .container {   
@@ -55,6 +89,10 @@
     display: none; 
 }
 */
+
+
+
+/*
 .nav__lista__menu__ul {
     display: none; 
     position: absolute;  
@@ -92,8 +130,7 @@
 .nav__mobile__menu__configuracoes {
     visibility: hidden;
 }
-
-
+*/
 
 
 

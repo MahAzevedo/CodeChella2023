@@ -1,29 +1,16 @@
-@import url("styles/header.css");
+@import url("./header.css");
+@import url("./footer.css");
 @import url("experiencia.css");
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
 
-:root {
-    --cor-de-fundo:#2E7BA2; 
-    --cor-principal: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);;  
-}
 
-.cabecalho {
-    background-color: var(--cor-de-fundo);
-    width: 19.5rem;
-}
-
-body {
-    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
-}
 
 .principal__carrossel__banner {
     width: 22.5rem;
     height: 10.9rem;
-    display: flex;
     flex-direction: column;
     /* aqui tem que alterar a imagem nas telas */
 }
@@ -36,7 +23,7 @@ body {
 }
 
 .principal__paragrafo {
-    font-family:'Raleway', sans-serif;
+    font-family: var(--fonte-texto);
     width: 19.5rem;
     height: 17.5rem;
 }
