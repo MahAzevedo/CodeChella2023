@@ -2,11 +2,13 @@
 
 .header__nav {
     background-color: var(--cor-de-fundo);
+    width: auto;
 } 
 
-.nav__bar {   /*  .cabecalho */
-    width: auto;    /*20.5rem; será que fica bom o auto, ele vai se ajustar a quaquer tela */
+.nav__bar {   
     display: flex;    
+    box-sizing: border-box; /*confirmar a necessidade nas outras telas*/
+    justify-content: space-between;
 } 
   
 .nav__logo {
@@ -19,16 +21,41 @@
     display: flex;
     gap: 3rem;
     align-items: center;
+    font-family: var(--fonte-texto);
+    font-weight: bold;
 }
 
 .nav__ul__li__a__menu { 
     text-decoration: none;
+    display: block;
+    padding: 0rem 4rem;
 } 
 
-.nav__ul__li__a__menu a:hover {
-    background: black;
+.nav__ul__li__a__menu:hover {
+    color: #ffffff;
+    font-size: 1.1rem;  
 }
 
-a:hover {
-    background: black;
+/* BUTTON MOBILE DE NAVEGAÇÃO */
+
+.nav__button__mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav__button__mobile {
+        display: block;
+    }
+    .nav__ul__li__menu {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .nav__button__mobile {
+        display: block;
+    }
+    .nav__ul__li__menu {
+        display: none;
+    }
 }
