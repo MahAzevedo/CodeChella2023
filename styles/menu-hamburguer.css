@@ -42,41 +42,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* BUTTON MOBILE DE NAVEGAÇÃO */
 
 /*
@@ -218,13 +183,48 @@
 
 
 
-    /*.principal__carrossel__banner {
+    .principal__carrossel__banner {
         background-image: url("/img/Banner.mobile.png");*/
-      /*  width: 100%;
+  /*      width: 100%;
         height: 270px;
         object-fit: cover;
         object-position: top;
-    }*/
+    }
 }
 
 */
+
+
+.nav__humburguer__container__position {
+    display: flex;
+    flex-direction: row;
+} /* confirmar se eu mantenho isso aqui */
+
+
+
+.nav__humburguer__container__bars {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+.nav__humburguer__container-bar1, 
+.nav__humburguer__container-bar2, 
+.nav__humburguer__container-bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: var(--color-hamburguer);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .nav__humburguer__container-bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .nav__humburguer__container-bar2 {opacity: 0;}
+  
+  .change .nav__humburguer__container-bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+

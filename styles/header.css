@@ -2,16 +2,23 @@
     --cor-de-fundo:#2E7BA2; 
     --cor-principal: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
     --fonte-texto: 'Raleway', sans-serif;
-    --color-hamburguer: #000000;
+    --color-hamburguer: #FFFFFF;
 }
 
 .header__nav {
     background-color: var(--cor-de-fundo);
-    width: 22.5rem;
+    width: 100%; /*22.5rem;*/
+    height: 100%;
+    overflow: hidden;
+    min-height: 0px;
+    min-width: 0px;
 }
+
 
 body {
     background: var(--cor-principal);
+    -webkit-font-smoothing: antialiased; /*serve?*/
+    box-sizing: border-box;
 }
 
 /*@media (max-width: 360px) {

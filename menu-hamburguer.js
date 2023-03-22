@@ -12,4 +12,9 @@ nav__button__mobiles[0].addEventListener('touchstart', toggleMenu);
 
 */
 
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
 
+
+ 
