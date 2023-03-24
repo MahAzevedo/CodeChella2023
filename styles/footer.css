@@ -29,7 +29,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
-    line-height: 3.5rem;
+    line-height: 2.5rem;
     color: #444444;
     display: flex;
     align-items: center;
@@ -40,54 +40,5 @@
 
 
 
-@media screen and (min-width: 768px) {
-    .principal__rodape {
-        width: 768px;
-        height: 252px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 24px 120px;
-        gap: 32px;
-    }
-
-   
-
-    .principal__rodape__paragrafo {
-        padding-right: 8rem 0;
-    }
-}
-/*
 
 
-@media screen and (min-width: 1440px) {
-    .principal__rodape {
-        display: flex;
-        justify-content: center;
-        border-left: 8rem 0;
-       
-    }
-}
-*/
-
-/*
-
-
-@media screen and (max-width: 768px) {
-    .principal__rodape {
-        display: flex;
-        justify-content: center;
-        border-left: 8rem 0;
-        background-image: url("img/Imagem.png"), no-repeat;
-    }
-
-    .principal__rodape__paragrafo {
-        padding-right: 8rem 0;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    
-}
-
-*/
