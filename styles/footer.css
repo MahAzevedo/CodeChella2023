@@ -1,7 +1,4 @@
-
-
-
-
+/* RODAPE */
 
 .principal__rodape {
     display: flex;
@@ -40,19 +37,15 @@
     padding: 0.6rem 1.6rem 1.6rem 1.6rem;
 }
 
-@media screen and (min-width: 360px) {
-    .nav__bar {
-        width: 87%;
-    }
-    
-    .principal__rodape { 
-        width: 20%;
-    }
-}
+
+
+/*
+
+
 
 @media screen and (min-width: 768px) {
-    .nav__bar {
-        width: auto;
+    .principal__rodape {
+
     }
 
    
@@ -63,10 +56,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .nav__bar {
-        width: 100%;
-    }
-   
     .principal__rodape {
         display: flex;
         justify-content: center;
@@ -74,37 +63,12 @@
        
     }
 }
+*/
 
+/*
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 360px) {
-
-    .principal__imagem__de__fas {
-        background-image: url("img/Imagem.das.fas.maior.png"), no-repeat;
-        width: 20%;
-    }
-    .principal__rodape {
-        display: flex;
-        justify-content: center;
-        border-left: 8rem 0;
-        
-    }
-}
 
 @media screen and (max-width: 768px) {
-   
-
     .principal__rodape {
         display: flex;
         justify-content: center;
@@ -120,3 +84,5 @@
 @media screen and (min-width: 1440px) {
     
 }
+
+*/
