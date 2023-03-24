@@ -97,6 +97,12 @@ h1 {
     align-items: center;
 }
 
+.principal__imagem__da__programacao-rodape {
+    padding: 0rem 0rem 2rem 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
 .principal__imagem__de__fas {
     display: flex;
     flex-direction: row;
@@ -108,5 +114,15 @@ h1 {
 
 
 
+
+/*
+@media screen and (min-width: 768px) {
+    .principal__imagem__da__programacao-rodape {
+        width: 
+        height: 64px;
+        background-image: url("img/Logo1 2.png");
+        background: no-repeat;
+    }
+} acho que nada disso aqui funcionou  */
 
 
