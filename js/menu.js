@@ -1,1 +1,1 @@
-const botao = document.querySelector(".nav__menu__configuracoes");
+//const botao = document.querySelector(".nav__menu__configuracoes");

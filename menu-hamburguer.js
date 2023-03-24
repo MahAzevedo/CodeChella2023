@@ -12,9 +12,11 @@ nav__button__mobiles[0].addEventListener('touchstart', toggleMenu);
 
 */
 
+/*  esse hamburguer é o mais simples que funciona bem 
 function myFunction(x) {
     x.classList.toggle("change");
   }
 
+*/
 
  

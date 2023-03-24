@@ -1,3 +1,5 @@
+/*
+
 const menu = document.querySelector(".nav__lista__ul");
 
 botao.addEventListener("click", () => {
@@ -8,3 +10,5 @@ botao.addEventListener("click", () => {
     }
 })
 
+
+*/
