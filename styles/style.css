@@ -100,51 +100,13 @@ h1 {
 .principal__imagem__de__fas {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     background-size: cover;
-    width: 90rem;
-    height: 21.13rem;
- /* aqui a imagem das fas que não tá funcionando :/ */
+    width: 360px;
+    height: 338px;
 }
 
-.principal__rodape {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.principal__rodape__paragrafo__redes__sociais {
-    font-family: 'Raleway';
-   
-    font-weight: 500;
-    font-size: 1.25rem;
-    line-height: 2.5rem;
-    color: #444444;
-    display: flex;
-    align-items: center;
-    text-align: center; 
-}
-
-.principal__rodape__itens__redes__sociais {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: -1.4rem 1.6rem 0.6rem 1.6rem;
-}
-
-.principal__rodape__paragrafo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.25rem;
-    line-height: 3.5rem;
-    color: #444444;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0.6rem 1.6rem 1.6rem 1.6rem;
-}
 
 
 
