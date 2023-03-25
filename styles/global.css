@@ -3,6 +3,7 @@
     --cor-principal: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
     --fonte-texto: 'Raleway', sans-serif;
     --color-hamburguer: #FFFFFF;
+    --color-lista: #444444;
 }
 
 body {
