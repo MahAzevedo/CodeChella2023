@@ -58,9 +58,24 @@
 
 /*  >>>  2 section: SYSTEM OF A DOM   <<<  */
 
+
 .principal__programacao-sabado {
-    
-}
+    margin: 4rem 0rem 4rem 1rem;
+} 
+
+.principal__container__programacao-sabado {} /*media query*/
+
+.principal__container__programacao-sabado-lista {}
+
+
+
+
+
+
+
+
+
+
 
 .principal__imagem__da__programacao {
     padding: 0rem 0rem 2rem 1.5rem;
@@ -84,5 +99,9 @@
 }
 
 
+
+.principal__programacao-sabado {
+    margin: 4rem 0rem 4rem 1rem;
+}  /*   >>>   domingo  <<<  */
 
 
