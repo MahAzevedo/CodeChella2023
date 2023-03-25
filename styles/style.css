@@ -76,12 +76,9 @@
     font-size: 48px;
     line-height: 56px;
     color: var(--color-lista);
- 
 
 
 } /*media query*/
-
-
 
 .ul__li__system-0f-a-dom {
     display: flex;
@@ -105,9 +102,8 @@
     font-size: 40px;
     line-height: 47px;
     color: var(--color-lista);
-    margin: 0rem 0rem 0rem -0.3rem;
+    margin: 1rem 0rem 0rem -0.3rem;
 }
-
 
 .ul__li__apollo-Client-2001 {
     display: flex;
@@ -122,19 +118,78 @@
     margin-left: 2rem;
 }
 
+.ul__bon-java {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: var(--color-lista);
+    margin: 1rem -1rem 2rem -1.3rem;
+    gap: 3.5px;
+}
+
+.ul__linkin-promises {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--color-lista);
+    margin: 1rem -1rem 2rem -1.3rem;
+    gap: 11.5px;
+}
+
+.ul__papa-react {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--color-lista);
+    margin: 1rem -1rem 2rem -1.3rem;
+    gap: 11.5px;
+}
+
+.ul__agnostic__front-end {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--color-lista);
+    margin: 1rem -1rem 2rem -1.3rem;
+    gap: 11.5px;
+}
+
+.ul__pink-flutter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--color-lista);
+    margin: 1rem -1rem 6rem -1.3rem;
+    gap: 11.5px;
+}
 
 
-/*
-RELACIONAR ENTRE OS 3 TAMANHOS DE TELA
-AS ul__li__  SAO PARA O MEDIA QUERY, MAS CONFIRMA PRA TER CERTEZA
-
-
-*/
-
-
-
-
-
+/*  >>> ... PROGRAMAÇÃO DE DOMINGO ...  <<<*/
 
 
 .principal__imagem__da__programacao {
@@ -143,11 +198,7 @@ AS ul__li__  SAO PARA O MEDIA QUERY, MAS CONFIRMA PRA TER CERTEZA
     align-items: center;
 }
 
-.principal__imagem__da__programacao-rodape {
-    padding: 0rem 0rem 2rem 1.5rem;
-    display: flex;
-    align-items: center;
-}
+
 
 .principal__imagem__de__fas {
     display: flex;
