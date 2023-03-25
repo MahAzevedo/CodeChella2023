@@ -5,24 +5,48 @@
 
 
 
-.principal__carrossel__banner {
+.principal__carrossel-banner {
     width: 22.5rem;
     height: 10.9rem;
     display: flex;
     flex-direction: column;
 }
 
+.principal__aviso-imagem {
+    width: 312px;
+    padding: 1.5rem;
+    margin: 7rem 0rem 2rem 0rem;
+}
+
+.principal__aviso-titulo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #444444;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin: -4rem -1rem -3rem -1rem;
+} 
+
+/*
 .principal__titulo {
     width: 19.5rem;
     height: 23.8rem;
     display: flex;
     flex-direction: column;  
 }
+*/
 
 .principal__paragrafo {
+    display: flex;
+    text-align: center;
+    align-items: center;
     font-family: var(--fonte-texto);
     width: 19.5rem;
-    height: 17.5rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    margin: 2rem 0rem 2rem 1.5rem;
+    
 }
 
 .principal__aviso {
@@ -31,26 +55,6 @@
     flex-direction: column;
     align-items: center;
 }
-
-.principal__aviso-imagem {
-    padding: 1.6rem;
-}
-
-.principal__aviso-texto {
-    width: 19.5rem;
-    height: 1.5rem;
-    padding: 1.6rem;
-    align-items: center;
-    text-align: center;
-    color: #444444;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 38px;
-    display: flex;
-    padding: 1.6rem;
-    font-size: 2rem;
-} 
 
 h1 {
     color: #FFFFFF;
@@ -63,19 +67,6 @@ h1 {
     align-items: center;
     text-align: center;
     padding: 2.2rem;
-}
-
-.principal__paragrafo {
-    font-family: 'Raleway';
-    font-style: normal;
-    padding: 2.6rem 0 1.5rem 1.5rem;
-    width: 18.5rem;
-    font-weight: 500;
-    font-size: 1.25rem;
-    line-height: 2.5rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
 }
 
 .principal__link__compra__ingresso {
