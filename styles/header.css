@@ -11,29 +11,31 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*@media (max-width: 360px) {
+@media only screen and (min-width: 360px) {
     .header__nav {
-        width: 22.5rem;
+        width: 360px;
     }
 }
 
-@media (max-width: 768px) {
+
+@media only screen and (min-width: 768px) {
     .header__nav {
-        width: 48rem;
+        width: 768px;
     }
-}*/
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .header__nav {
+        width: 1440px;;
+    }
+}
+
+
+
+
+
+
 
 /*
 .header__nav {} 

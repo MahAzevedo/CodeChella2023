@@ -1,6 +1,3 @@
-@import url("./header.css");
-@import url("./footer.css");
-@import url("experiencia.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
@@ -11,8 +8,8 @@
 .principal__carrossel__banner {
     width: 22.5rem;
     height: 10.9rem;
+    display: flex;
     flex-direction: column;
-    /* aqui tem que alterar a imagem nas telas */
 }
 
 .principal__titulo {
@@ -114,15 +111,5 @@ h1 {
 
 
 
-
-/*
-@media screen and (min-width: 768px) {
-    .principal__imagem__da__programacao-rodape {
-        width: 
-        height: 64px;
-        background-image: url("img/Logo1 2.png");
-        background: no-repeat;
-    }
-} acho que nada disso aqui funcionou  */
 
 
