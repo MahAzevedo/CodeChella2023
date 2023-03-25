@@ -104,7 +104,12 @@
 }
 
 
+/*
+RELACIONAR ENTRE OS 3 TAMANHOS DE TELA
+AS ul__li__  SAO PARA O MEDIA QUERY, MAS CONFIRMA PRA TER CERTEZA
 
+
+*/
 
 
 
@@ -165,3 +170,14 @@
     margin: -2rem 0rem 1rem 4.7rem;
 }
 */
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    .principal__aviso-imagem {
+        background-image: url("img/Imagem.desktop.fas.png");
+        background-repeat: no-repeat;
+    }
+}
+
