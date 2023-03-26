@@ -65,7 +65,6 @@
 
 .principal__container__programacao-sabado {} /*media query*/
 
-
 .principal__container__programacao-sabado-lista {
     display: flex;
     flex-direction: column;
@@ -304,15 +303,9 @@
 }
 
 
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 360px) {
+    
+}
 
 @media only screen and (min-width: 1440px) {
     .principal__aviso-imagem {

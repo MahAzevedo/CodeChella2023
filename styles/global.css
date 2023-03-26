@@ -11,3 +11,24 @@ body {
     -webkit-font-smoothing: antialiased; /*serve?*/
     box-sizing: border-box;
 }
+
+@media only screen and (min-width: 360px) {
+    body {
+        width: 360px;
+        height: 4483px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 768px;
+        height: 3532px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+        height: 2727px;
+    }
+}
