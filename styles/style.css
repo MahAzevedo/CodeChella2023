@@ -317,9 +317,21 @@
     .main__principal-container {
         width: 768px;
     }
+
+    .principal__carrossel-banner {
+        background-image: url("/img/Banner.tablet.png");
+        
+    }
+
+
+
+
+
+
     .principal__container-system-of-a-dom {
         width: 768px;
     }
+
 }
 
 
