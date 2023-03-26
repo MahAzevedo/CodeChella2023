@@ -14,6 +14,14 @@
 @media only screen and (min-width: 360px) {
     .header__nav {
         width: 360px;
+        height: 128px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 24px;
+        gap: 32px;
     }
 }
 
@@ -21,13 +29,28 @@
 @media only screen and (min-width: 768px) {
     .header__nav {
         width: 768px;
+        height: 200px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 60px;
+        gap: 32px;
     }
 }
 
 
 @media only screen and (min-width: 1440px) {
     .header__nav {
-        width: 1440px;;
+        width: 1440px;
+        height: 128px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 120px;
+        gap: 32px;
     }
 }
 

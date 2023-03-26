@@ -304,10 +304,28 @@
 
 
 @media only screen and (min-width: 360px) {
-    
+    .main__principal-container {
+        width: 360px;
+    }
+    .principal__container-system-of-a-dom {
+        width: 360px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main__principal-container {
+        width: 768px;
+    }
+    .principal__container-system-of-a-dom {
+        width: 768px;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
+    .main__principal-container {
+        width: 1440px;
+    }
+
     .principal__aviso-imagem {
         background-image: url("img/Imagem.desktop.fas.png");
         background-repeat: no-repeat;
