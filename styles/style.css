@@ -320,7 +320,9 @@
 
     .principal__carrossel-banner {
         background-image: url("/img/Banner.tablet.png");
-        
+        background-repeat: no-repeat;
+       
+       
     }
 
 
