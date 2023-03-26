@@ -8,8 +8,7 @@
 
 body {
     background: var(--cor-principal);
-    -webkit-font-smoothing: antialiased; /*serve?*/
-    box-sizing: border-box;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 360px) {
