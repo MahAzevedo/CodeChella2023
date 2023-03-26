@@ -321,7 +321,9 @@
     .principal__carrossel-banner {
         background-image: url("/img/Banner.tablet.svg");
         background-repeat: no-repeat;
-       
+        background-size: cover;
+        background-position: center;
+        
        
     }
 
