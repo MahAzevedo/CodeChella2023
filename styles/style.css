@@ -198,6 +198,111 @@
     align-items: center;
 }
 
+.principal__container__programacao-domingo-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+    text-align: center;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--color-lista);
+}
+
+.lana-del-ploy {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--color-lista);
+    margin: 1rem 1rem 1.5rem 0.7rem;
+}
+
+.dua-lib {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: var(--color-lista);
+    margin: 1rem 0rem 2rem -0.3rem;
+    gap: 15.5px;
+}
+
+.arrayana-grande {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: var(--color-lista);
+    margin: 1rem 0rem 2rem -0.3rem;
+    gap: 15.5px;
+}
+
+.miley-cypress {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--color-lista);
+    margin: 1rem -1rem 2rem -1.3rem;
+    gap: 19.5px;
+}
+
+.json-derulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--color-lista);
+    margin: 1rem -1rem 2rem -1.3rem;
+    gap: 19.5px;
+}
+
+.kylie-milog {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--color-lista);
+    margin: 1rem -1rem 3rem -1.3rem;
+    gap: 19.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .principal__imagem__de__fas {
@@ -214,6 +319,14 @@
 .principal__programacao-sabado {
     margin: 4rem 0rem 4rem 1rem;
 }  /*   >>>   domingo  <<<  */
+
+
+
+
+
+
+
+
 
 
 /*
