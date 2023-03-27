@@ -1,3 +1,31 @@
+.header__nav {}
+
+.nav__menu-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__menu-logo-codechella {
+    margin: 1rem; 
+}
+
+.nav__menu__container-checkbox {
+    margin: 2.5rem 3.5rem 0.5rem 2.5rem;
+}
+
+.nav__menu__container__input-checkbox {}
+
+.nav__menu__container-label {}
+
+.nav__menu__hamburguer-span {}
+
+.nav__ul__li__menu {}
+
+.nav__ul__li__a__menu {}
+
+
+
+
 
 
 
