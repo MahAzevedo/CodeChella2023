@@ -7,10 +7,45 @@ header {
     width: 2560px;
 }
 
-.header__nav-container {}
+.header__nav {
+    display: flex;
+    /*flex-direction: row;*/
+}
 
+.header__nav-container-menu {
+   /* display: flex;
+    flex-direction: column;*/
+}
 
+.header__nav-lista {}
 
+.header__nav-lista-link {}
+
+.header__container-hamburguer {}
+
+.header__nav-barra1 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.header__nav-barra2 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.header__nav-barra3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
 
 
 /*
