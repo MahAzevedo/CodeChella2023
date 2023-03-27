@@ -4,12 +4,14 @@
     --fonte-texto: 'Raleway', sans-serif;
     --color-hamburguer: #FFFFFF;
     --color-lista: #444444;
+
 }
 
 body {
     background: var(--cor-principal);
     background-repeat: no-repeat;
 }
+
 
 @media only screen and (min-width: 360px) {
     body {
@@ -28,6 +30,15 @@ body {
 @media only screen and (min-width: 1440px) {
     body {
         width: 1440px;
-        height: 2727px;
+        height: 2193px;
     }
 }
+
+/*
+@media only screen and (min-width: 1440px) {
+    body {
+        width: 2560px;
+        height: 1730px;
+    }
+}
+*/
