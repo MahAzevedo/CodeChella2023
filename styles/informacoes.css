@@ -1,3 +1,7 @@
+@import url("./global.css");
+@import url("./header.css");
+@import url("./footer.css");
+
 .banner__navegacao {}
 
 .imagem__banner__informacoes__show {
@@ -33,17 +37,7 @@
     height: 2.4rem;
     background: #2E7BA2;
 
-    
     align-self: stretch;
-    
-
-   
-  
-    
-   
-    
-
-   
 }
 
 .campo__azul__texto {
