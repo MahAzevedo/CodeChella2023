@@ -1,3 +1,4 @@
+/*
 header {
     background-color: var(--cor-de-fundo);
     display: flex;
@@ -5,11 +6,14 @@ header {
     align-items: center;
     padding: 0.5rem;
     /*width: 2560px;*/ /*tamanho header*/
+    /*
     gap: 1rem;
     justify-content: space-between;
 }
+*/
 
 .nav__bar {
+    background-color: var(--cor-de-fundo);
     display: flex;
     align-items: center;
     gap: 27rem;
@@ -63,7 +67,7 @@ header {
 
 
 
-
+/*
 
 @media screen (min-width: 360px) {
     header {
@@ -106,6 +110,67 @@ header {
         left: 0;
     }
 
+}
+
+@media screen (min-width: 768px) {
+    header {
+        width: 768px;
+    }
+    
+}
+
+@media screen (min-width: 1440px) {
+    header {
+        width: 1440px;
+    }
+}
+
+@media screen (min-width: 2560px) {
+    header {
+        width: 2560px;
+    }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,6 +193,41 @@ header {
     transition: 0.4s;
 }
 */
+
+
+
+
+  
+
+
+
+
+
+ /*
+    .header__nav-barra1 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    
+    .header__nav-barra2 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    
+    .header__nav-barra3 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+   */
 
 
 /*
@@ -162,53 +262,6 @@ header {
 
 .nav__ul__li__a__menu {}
 */
-
-
-   /*
-    .header__nav-barra1 {
-        width: 35px;
-        height: 5px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-    
-    .header__nav-barra2 {
-        width: 35px;
-        height: 5px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-    
-    .header__nav-barra3 {
-        width: 35px;
-        height: 5px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-   */
-}
-
-@media screen (min-width: 768px) {
-    header {
-        width: 768px;
-    }
-    
-}
-
-@media screen (min-width: 1440px) {
-    header {
-        width: 1440px;
-    }
-}
-
-@media screen (min-width: 2560px) {
-    header {
-        width: 2560px;
-    }
-}
 
 
 
