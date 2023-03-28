@@ -12,11 +12,17 @@ header {
 }
 */
 
-.nav__bar {
+header {
     background-color: var(--cor-de-fundo);
+}
+
+.nav__bar {
     display: flex;
     align-items: center;
     gap: 27rem;
+    min-height: 70px;
+    justify-content: space-between;
+    padding: 0 34px;
 }
 
 .nav__menu {
@@ -39,7 +45,9 @@ header {
     font-size: 20px;
     
 }
-.nav__menu-link {}
+.nav__menu-link {
+    /*nao funciona*/
+}
 
 .hamburguer {
     display: none;
