@@ -55,18 +55,18 @@
         </h7>
 
 
-       <!--
-         <div class="container-accordion">
+         <!--
+        <div class="container-accordion">
             <div class="accordion-drop">
-                <div class="accordion-titulo">  /* onclick="clickAccordion('t')" */
+                <div class="accordion-titulo">  
                     <h3 class="accordion-titulo-h3">
                         Quais serão as atrações?
                     </h3>
                     <img src="./img/arrow_drop_down.png" alt="Img seta">
                 </div>
-            </div>
-            <div class="hide" onclick="clickAccordion('t')">
-                <p class="accordion-paragrafo"> 
+            </div>            
+            <div class="accordion-paragrafo" onClick="clickAccordion(0)" >
+                <p class="hide"> 
                     Teremos dois dias de shows, <br>
                     o primeiro (11/03) com <br>
                     bandas de rock, e o segundo <br>
@@ -76,9 +76,10 @@
                 </p>
             </div>
         </div> 
-       -->
+         -->
+       
 
-        <div class="section">
+       <div class="section">
             <div class="titulo" onClick="clickAccordion(0)">
                 <h3>Sessão1</h3>
                 <img src="./img/arrow_drop_down.png" alt="Img seta">
@@ -96,11 +97,17 @@
 
         <div class="section">
             <div class="titulo" onClick="clickAccordion(2)">
-                <h3>Sessão1</h3>
-                <img src="./img/arrow_drop_down.png" alt="Img seta">
+                <h3>Quais serão as atrações?</h3>
+                <img src="./img/arrow_drop_down.png" alt="Img seta" class="icon">
             </div>
-            <p class="hide">Conteúdo da sessão 1</p>
-        </div>
+            <p class="hide">
+                Teremos dois dias de shows, <br>
+                o primeiro (11/03) com <br>
+                bandas de rock, e o segundo <br>
+                (12/03) com bandas pop. <br>
+                <a href="#">Confira o line-up em detalhes <br>
+                    clicando neste link!</a></p>
+        </div> 
 
 
 
