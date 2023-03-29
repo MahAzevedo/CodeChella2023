@@ -55,15 +55,18 @@
         </h7>
 
 
-        <div class="container-accordion">
+       <!--
+         <div class="container-accordion">
             <div class="accordion-drop">
-                <div class="accordion-titulo" onclick="clickAccordion()">
-                    <h3 class="accordion-titulo-h3">Quais serão as atrações?</h3>
+                <div class="accordion-titulo">  /* onclick="clickAccordion('t')" */
+                    <h3 class="accordion-titulo-h3">
+                        Quais serão as atrações?
+                    </h3>
                     <img src="./img/arrow_drop_down.png" alt="Img seta">
                 </div>
             </div>
-            <div class="hide">
-                <p class="accordion-paragrafo hide"> 
+            <div class="hide" onclick="clickAccordion('t')">
+                <p class="accordion-paragrafo"> 
                     Teremos dois dias de shows, <br>
                     o primeiro (11/03) com <br>
                     bandas de rock, e o segundo <br>
@@ -73,8 +76,28 @@
                 </p>
             </div>
         </div> 
+       -->
 
-        <div class="container-accordion">
+        <div class="section">
+            <div class="titulo" onClick="clickAccordion(0)">
+                <h3>Sessão1</h3>
+                <img src="./img/arrow_drop_down.png" alt="Img seta">
+            </div>
+            <p class="hide">Conteúdo da sessão 1</p>
+        </div>
+        
+        <div class="section">
+            <div class="titulo" onClick="clickAccordion(1)">
+                <h3>Sessão1</h3>
+                <img src="./img/arrow_drop_down.png" alt="Img seta">
+            </div>
+            <p class="hide">Conteúdo da sessão 1</p>
+        </div>
+
+
+
+       <!--
+         <div class="container-accordion">
             <div class="accordion-drop">
                 <div class="accordion-titulo">
                     <h3 class="accordion-titulo-h3">Qual é a classificação etária?</h3>
@@ -149,6 +172,7 @@
                 </p>
             </div>
         </div> 
+       -->
 
 
 
