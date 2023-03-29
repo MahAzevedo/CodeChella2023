@@ -44,8 +44,27 @@ function clickAccordion(t) {
 */
 
 // 4exemplo completo e, com seta:
+/*
 function clickAccordion(t) {
     let pai = document.getElementsByClassName("titulo")[t].parentElement;
+    let img = document.getElementsByClassName("icon")[t];
+    let conteudo = pai.lastElementChild.classList.contains("hide");
+
+    if(conteudo == true) {
+        pai.lastElementChild.className = "show";
+        img.style.transform = "rotate("+-90+"deg)";
+    }else {
+        pai.lastElementChild.className = "hide";
+        img.style.transform = "rotate("+0+"deg)";
+    }
+
+    console.log(conteudo);
+}*/
+
+
+// teste
+function clickAccordion(t) {
+    let pai = document.getElementsByClassName("accordion-drop")[t].parentElement;
     let img = document.getElementsByClassName("icon")[t];
     let conteudo = pai.lastElementChild.classList.contains("hide");
 
