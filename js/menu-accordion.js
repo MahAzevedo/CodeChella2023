@@ -7,14 +7,14 @@ function clickAccordion(t) {
 
 /*  >>>>>  SUPER FUNCIONOU :D <<<<<  2exemplo, que leva ao 3exemplo
 function clickAccordion(t) {
-    var pai = document.getElementsByClassName('titulo')[t].parentElement;
-    var conteudo = pai.lastElementChild.classList.contains('hide');
+    let pai = document.getElementsByClassName('titulo')[t].parentElement;
+    let conteudo = pai.lastElementChild.classList.contains('hide');
 
     console.log(conteudo);
 }
 */
 
-// 3exemplo, completo: :D smile face  // troquei var, por let 
+// 3exemplo, completo: :D smile face 
 // 3exemplo, que leva ao 4exemplo  , a seta
 /*
 function clickAccordion(t) {
