@@ -38,35 +38,19 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
-    width: 23.7rem;
+    width: 17rem;
     height: 2.4rem;
     background: #2E7BA2;
+    margin: 1rem 0rem 1rem 2rem;
 }
 
 .campo__azul__texto {
     width: 23.7rem;
-    height: 2.375rem;
     color: #FFFFFF;
-
-
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 2rem;
     line-height: 2.375rem;
-   
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    align-self: stretch;
-    justify-items: space-between;
-
-    
-
-    
-
-
 }
 
 
