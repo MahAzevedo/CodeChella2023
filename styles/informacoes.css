@@ -53,6 +53,102 @@
     line-height: 2.375rem;
 }
 
+/* ACCORDION */
+
+.container-accordion {}
+
+.accordion-drop {}
+
+.accordion-titulo {
+    background-color: var(--cor-de-fundo);
+    color: var(--color-header);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    width: 20.3rem;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 1rem 0rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.accordion-titulo-h3 {
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
+.accordion-paragrafo {
+    background-color: #C8DEEF;
+    color: var(--color-lista);
+    font-family: 'Raleway';
+    font-weight: 500;
+    line-height: 35px;
+    padding: 6px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: -1rem 1rem 1rem 1rem;
+    width: 20.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,3 +174,5 @@
 
 .span__quais__atracoes {}
 */
+
+
