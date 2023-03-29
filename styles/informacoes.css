@@ -2,13 +2,20 @@
 @import url("./header.css");
 @import url("./footer.css");
 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .banner__navegacao {}
 
 .imagem__banner__informacoes__show {
     width: 23.5rem;
     height: 17.6rem;
     display: flex;   
-    align-self: stretch;  /* nao sei se vai alargar a imagem, testar*/
+    
 }
 
 .informacoes__titulo {
@@ -26,8 +33,6 @@
     padding: 1rem 2rem;
 }
 
-
-
 .campo__azul {
     display: flex;
     flex-direction: column;
@@ -36,8 +41,6 @@
     width: 23.7rem;
     height: 2.4rem;
     background: #2E7BA2;
-
-    align-self: stretch;
 }
 
 .campo__azul__texto {
