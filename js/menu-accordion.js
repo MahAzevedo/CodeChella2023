@@ -65,7 +65,7 @@ function clickAccordion(t) {
 // teste
 function clickAccordion(t) {
     let pai = document.getElementsByClassName("accordion-drop")[t].parentElement;
-    let img = document.getElementsByClassName("icon")[t];
+    let img = document.getElementsByClassName("seta")[t];
     let conteudo = pai.lastElementChild.classList.contains("hide");
 
     if(conteudo == true) {
