@@ -31,13 +31,8 @@
     align-items: center;
     text-align: center;
     padding: 1rem 2rem;
+    margin-top: 1rem;
 }
-
-
-
-
-
-
 
 /* ACCORDION */
 .container-accordion {}
@@ -66,22 +61,21 @@
     line-height: 30px;
 }
 
-.icon {
+.titulo {}
+
+.seta {
     display: flex;
     flex-direction: column;
+    transition: 0.2s;
 }
-
 
 .hide {
     display: none;
 }
 
-
 .show {
-    display: block;
-}
+   /* display: block;*/
 
-.accordion-paragrafo .hide {
     background-color: #C8DEEF;
     color: var(--color-lista);
     font-family: 'Raleway';
@@ -97,6 +91,8 @@
     margin: -1rem 1rem 1rem 1rem;
     width: 20.3rem;
 }
+
+
 
 
 

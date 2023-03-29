@@ -1,15 +1,3 @@
-/*function clickAccordion(t) {
-    let pai = document.getElementsByClassName("hide")[t].parentElement;
-    let conteudo = pai.lastElementChild.classList.contains("accordion-paragrafo");
-
-    if(conteudo == true) {
-        pai.lastElementChild.className = "show";
-    } else {
-        pai.lastElementChild.className = "hide";
-    }
-}*/
-
-
 /* >>>> FUNCIONOU <<<<  1exemplo, q leva ao 2exemplo
 function clickAccordion(t) {
     document.getElementsByClassName('titulo')
@@ -62,7 +50,7 @@ function clickAccordion(t) {
 }*/
 
 
-// teste
+// FUNCIONOU
 function clickAccordion(t) {
     let pai = document.getElementsByClassName("accordion-drop")[t].parentElement;
     let img = document.getElementsByClassName("seta")[t];
