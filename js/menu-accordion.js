@@ -95,6 +95,11 @@ function clickAccordion(t) {
     let conteudo = pai.classList.contains("sectionHide");
     let sections = document.getElementsByClassName("section");
 
+    for(let i = 0; i < sections.length; i++) {
+        //console.log(sections[i]);
+        sections[i].classList = "section NovaClass";
+    }
+
     if(conteudo == true) {
         pai.className = "section sectionShow";
         img.style.transform = "rotate("+-90+"deg)";
