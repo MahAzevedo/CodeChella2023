@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,25 +9,25 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css"> 
+    <link rel="stylesheet" href="styles/experiencia.css">
+    <link rel="stylesheet" href="styles/seletores.css">
     <link rel="stylesheet" href="styles/ingresso.css">
+    <link rel="stylesheet" href="styles/informacoes.css">
 </head>
 <body>
     
-    <header class="cabecalho">
-        <nav class="nav__barra">
-            <section class="nav__logo">
-                <img src="img/Logo1 1.png" alt="Imagem do CodeChella" class="logo">
-            </section>
-
-            <div class="dropdown" style="float:right;">
-                <button class="dropbtn">Menu</button>
-                <div class="dropdown-content">
-                  <a href="./experiencia.html">A Experiência</a>
-                  <a href="#">Mapa de Setores</a>
-                  <a href="#">Informações</a>
-                  <a href="#">Ingresso</a>
-                </div>
-              </div>
+    <header>
+        <nav class="menu__cabecalho">
+            <div>
+                <img src="./img/Logo1 1.png" alt="Img Logo CodeChella">
+            </div>
+            <input type="checkbox" id="menu" class="menu__nav">
+            <ul>
+                <li class="menu__ul-li">A Experiência</li>
+                <li class="menu__ul-li">Mapa de setores</li>
+                <li class="menu__ul-li">Informações</li>
+                <li class="menu__ul-li">Ingresso</li>
+            </ul>
         </nav>
     </header>
 
@@ -35,8 +35,32 @@
         <img src="./img/Banner.mobile.ingresso.png" alt="Img Ingresso" class="banner__ingresso">
         <p class="main__p">Preencha o formulário a seguir:</p>
 
-        <form action="./ingresso.html"></form>
+        <form action="./ingresso.html">
+            Nome Completo: <input type="text" name="fname"><br>
+            Email: <input type="text" name="fname"><br>
+            Tipo de ingresso
+            <input type="button" onclick="myFunction()" value="Avançar">
+        </form>
     </main>
+
+
+
+    <div class="banner">
+        <img src="./img/Banner.mobile.ingresso.png" alt="Img Ingresso">
+    </div>
+
+    <main class="container-formulario">
+        <h2>Preencha o formulário a seguir:</h2>
+        <form action=""></form>
+    </main>
+
+
+
+
+
+
+
+
 <!--
      <div class="nav__link">
                 <a href="#" class="nav__a">A experiência</a>
