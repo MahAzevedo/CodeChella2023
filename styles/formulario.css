@@ -1,0 +1,100 @@
+@import url("./global.css");
+@import url("./header.css");
+@import url("./footer.css");
+
+
+.cabecalho {}
+
+.nav__barra {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: row;
+    gap: 6rem;
+    padding: 1rem 1rem;
+}
+
+.nav__logo {}
+
+.logo {} 
+
+/* MENU */
+
+.nav__link {}
+
+.nav__a {
+    color: white;  
+}
+
+
+/*  MAIN - CONTEUDO   */
+
+.main__p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Calistoga';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 1rem;
+}
+
+
+
+
+
+@media screen (min-width: 768px) {
+    .nav__barra {
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        flex-direction: column;
+        gap: 6rem;
+        padding: 1rem 1rem;
+    }
+}
+
+
+/*..............3wc.............*/
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
