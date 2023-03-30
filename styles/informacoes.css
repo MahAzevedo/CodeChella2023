@@ -73,7 +73,7 @@
 
 .sectionShow p { /*.show*/
     
-    display: block;
+    /*display: block;*/
 
     background-color: #C8DEEF;
     color: var(--color-lista);
@@ -83,7 +83,7 @@
     padding: 6px;
     box-sizing: border-box;
 
-    /*display: flex;*/
+    display: flex;
     
     flex-direction: column;
     align-items: center;

@@ -91,21 +91,22 @@ function clickAccordion(t) {
 // 7exemplo
 function clickAccordion(t) {
     let pai = document.getElementsByClassName("accordion-drop")[t].parentElement;
-    let img = document.getElementsByClassName("seta")[t];
+    let img = document.getElementsByClassName("seta");
     let conteudo = pai.classList.contains("sectionHide");
     let sections = document.getElementsByClassName("section");
 
-    for(let i = 0; i < sections.length; i++) {
-        //console.log(sections[i]);
-        sections[i].classList = "section NovaClass";
-    }
+    
 
     if(conteudo == true) {
+       for(let i = 0; i < sections.length; i++) {
+        sections[i].classList = "sectionHide";
+        img[i].style.transform = "rotate(0deg)";
+    } 
         pai.className = "section sectionShow";
-        img.style.transform = "rotate("+-90+"deg)";
+        img[t].style.transform = "rotate(-90deg)";
     }else {
         pai.className = "section sectionHide";
-        img.style.transform = "rotate("+0+"deg)";
+        img[t].style.transform = "rotate(0deg)";
     }
 
 }
