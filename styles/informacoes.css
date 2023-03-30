@@ -69,12 +69,11 @@
     transition: 0.2s;
 }
 
-.hide {
-    display: none;
-}
 
-.show {
-   /* display: block;*/
+
+.sectionShow p { /*.show*/
+    
+    display: block;
 
     background-color: #C8DEEF;
     color: var(--color-lista);
@@ -83,7 +82,8 @@
     line-height: 35px;
     padding: 6px;
     box-sizing: border-box;
-    display: flex;
+
+    /*display: flex;*/
     
     flex-direction: column;
     align-items: center;
@@ -92,7 +92,8 @@
     width: 20.3rem;
 }
 
-
-
+.sectionHide p {   /*.hide*/
+    display: none;
+}
 
 
