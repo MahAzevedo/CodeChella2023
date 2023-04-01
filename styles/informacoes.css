@@ -93,8 +93,7 @@
 }
 
 .sectionHide p {   /*.hide*/
-    /*display: none;*/
-    display: flex;
+    display: none;
 }
 
 
