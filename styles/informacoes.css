@@ -92,6 +92,8 @@
     width: 20.3rem;
 }
 
-
+.sectionHide p {   /*.hide*/
+    display: none;
+}
 
 
