@@ -23,7 +23,7 @@ function myFunction(x) {
 const hamburguer = document.querySelector(".hamburguer");
 const nav__menu = document.querySelector(".nav__menu");
 
-hamburguer.addEventListener("click", () -> ) {
+hamburguer.addEventListener("click", () => {
   hamburguer.classList.toggle("active");
   nav__menu.classList.toggle("active");
-}
+})
